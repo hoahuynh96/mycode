@@ -1,0 +1,14 @@
+#ifndef _SCENEABOUT_H_
+#define _SCENEABOUT_H_
+
+#include "cocos2d.h"
+
+class AboutScene : public cocos2d::Layer
+{
+public:
+	static cocos2d::Scene* createScene();
+
+	virtual bool init();
+	CREATE_FUNC(AboutScene);
+};
+#endif
